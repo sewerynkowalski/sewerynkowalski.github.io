@@ -95,20 +95,22 @@
 
         .button {
             background: rgba(0, 100, 0, 0.9);
-            color: #ffffff;
-            padding: 15px 30px;
-            border: none;
-            border-radius: 10px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: transform 0.3s ease;
-            text-decoration: none;
-            display: block;
-            text-align: center;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    display: block;
+    text-align: center;
         }
 
         .button:hover {
             transform: scale(1.05);
+            background: rgba(0, 150, 0, 1);
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.6);
         }
 
         .large {
